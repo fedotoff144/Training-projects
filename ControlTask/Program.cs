@@ -16,17 +16,17 @@
 Console.WriteLine("Введите значаения строчного массива");
 
 Console.WriteLine("Введите значаение 1 элемента массива: ");
-string? a = Console.ReadLine();
+string? firstElement = Console.ReadLine();
 Console.WriteLine("Введите значаение 2 элемента массива: ");
-string? b = Console.ReadLine();
+string? secondElement = Console.ReadLine();
 Console.WriteLine("Введите значаение 3 элемента массива: ");
-string? c = Console.ReadLine();
+string? thirdElement = Console.ReadLine();
 Console.WriteLine("Введите значаение 4 элемента массива: ");
-string? d = Console.ReadLine();
+string? fourthElement = Console.ReadLine();
 
 //Для наглядности выводим исходный массив
 
-string[] arr = { a, b, c, d };
+string[] arr = { firstElement, secondElement, thirdElement, fourthElement };
 Console.WriteLine("Исходный массив");
 Console.WriteLine("[" + string.Join(", ", arr) + "]");
 
